@@ -1,0 +1,23 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "depth": {
+            "type": "int",
+            "defaultValue": 2,
+            "metadata": {
+                "description": "how many levels of deployment do you want?"
+            }
+        }
+    },
+    "functions": [],
+    "variables": {},
+    "resources": [
+    ],
+    "outputs": {
+        "helloworld": {
+            "type": "string",
+            "value": "helloworld"
+        }
+    }
+}
